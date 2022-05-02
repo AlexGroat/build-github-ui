@@ -1,7 +1,15 @@
 <template>
   <div class="text-gray-900">
     <nav
-      class="bg-gray-900 text-white px-4 py-3 flex items-center justify-between"
+      class="
+        bg-gray-900-github
+        text-white
+        px-6
+        py-4
+        flex
+        items-center
+        justify-between
+      "
     >
       <div class="flex items-center space-x-4">
         <a href="#">
@@ -22,7 +30,7 @@
         <div class="relative">
           <input
             type="text"
-            class="rounded bg-black placeholder-white w-72 px-3 py-1"
+            class="rounded bg-black placeholder-gray w-72 px-3 py-1 text-sm"
             placeholder="Search or jump to..."
           />
           <div class="absolute top-0 right-0 flex items-center h-full">
@@ -40,7 +48,7 @@
             </div>
           </div>
         </div>
-        <ul class="flex items-center font-semibold space-x-4">
+        <ul class="flex items-center font-semibold space-x-4 text-sm">
           <li class="hover:text-gray-400"><a href="#">Pull Requests</a></li>
           <li class="hover:text-gray-400"><a href="#">Issues</a></li>
           <li class="hover:text-gray-400"><a href="#">Marketplace</a></li>
@@ -128,6 +136,7 @@
     </nav>
 
     <div class="bg-black">
+      <!-- page background -->
       <div class="repo-stats flex items-center justify-between px-8 py-4">
         <div class="flex items-center">
           <a href="">
@@ -182,15 +191,16 @@
           <div class="flex text-xs">
             <button
               class="
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
-                rounded rounded-r-none
+                rounded-lg rounded-r-none
                 px-3
                 py-1
                 flex
                 items-center
                 space-x-1
-                bg-gray-900
+                bg-gray-800-github
+                text-gray-400
               "
             >
               <a href="" class="fill-current">
@@ -200,7 +210,7 @@
                   version="1.1"
                   width="16"
                   data-view-component="true"
-                  class="w-4 h-4 mr-1"
+                  class="w-4 h-4 mr-1 text-gray-400"
                 >
                   <path
                     fill-rule="evenodd"
@@ -226,14 +236,15 @@
             <a
               href="#"
               class="
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
-                rounded rounded-l-none
+                rounded-lg rounded-l-none
                 px-3
                 py-1
                 font-semibold
                 hover:text-blue-600
-                bg-gray-900
+                bg-gray-800-github
+                text-gray-400
               "
             >
               276
@@ -242,15 +253,16 @@
           <div class="flex text-xs">
             <button
               class="
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
-                rounded rounded-r-none
+                rounded-lg rounded-r-none
                 px-3
                 py-1
                 flex
                 items-center
                 space-x-1
-                bg-gray-900
+                bg-gray-800-github
+                text-gray-400
               "
             >
               <a href="" class="fill-current"
@@ -261,7 +273,7 @@
                   version="1.1"
                   width="16"
                   data-view-component="true"
-                  class="octicon octicon-repo-forked mr-1"
+                  class="octicon octicon-repo-forked mr-1 text-gray-400"
                 >
                   <path
                     fill-rule="evenodd"
@@ -287,14 +299,15 @@
             <a
               href="#"
               class="
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
-                rounded rounded-l-none
+                rounded-lg rounded-l-none
                 px-3
                 py-1
                 font-semibold
                 hover:text-blue-600
-                bg-gray-900
+                text-gray-400
+                bg-gray-800-github
               "
             >
               2.1K
@@ -303,15 +316,16 @@
           <div class="flex text-xs">
             <button
               class="
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
-                rounded rounded-r-none
+                rounded-lg rounded-r-none
                 px-3
                 py-1
                 flex
                 items-center
                 space-x-1
-                bg-gray-900
+                bg-gray-800-github
+                text-gray-400
               "
             >
               <a href="" class="fill-current"
@@ -322,7 +336,7 @@
                   version="1.1"
                   width="16"
                   data-view-component="true"
-                  class="octicon octicon-star d-inline-block mr-1"
+                  class="octicon octicon-star d-inline-block mr-1 text-gray-400"
                 >
                   <path
                     fill-rule="evenodd"
@@ -351,14 +365,15 @@
             <a
               href="#"
               class="
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
-                rounded rounded-l-none
+                rounded-lg rounded-l-none
                 px-3
                 py-1
                 font-semibold
                 hover:text-blue-600
-                bg-gray-900
+                bg-gray-800-github
+                text-gray-400
               "
             >
               433
@@ -371,18 +386,26 @@
       <ul
         class="
           repo-nav
-          border-b border-gray-400
+          border-b border-gray-900
           flex
           items-center
-          px-8
-          mt-4
-          text-gray-200
+          px-4
+          mt-3
+          text-gray-400 text-sm
         "
       >
         <li class="">
           <a
             href=""
-            class="flex items-center border-b-2 border-red-400 px-4 pb-3"
+            class="
+              flex
+              items-center
+              border-b-2 border-red-400
+              px-3
+              pb-3
+              rounded
+              hover:bg-gray-700
+            "
           >
             <a href="" class="fill-current">
               <svg
@@ -418,8 +441,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -448,12 +473,14 @@
               class="
                 text-xs
                 rounded-lg
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
                 px-2
                 ml-1
                 text-gray-600
                 hover:text-blue-500
+                rounded
+                hover:bg-gray-700
               "
             >
               102
@@ -472,8 +499,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -501,7 +530,7 @@
               class="
                 text-xs
                 rounded-lg
-                border border-gray-700
+                border border-gray-800
                 hover:border-gray-400
                 px-2
                 ml-1
@@ -525,8 +554,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -564,8 +595,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -591,7 +624,7 @@
             <span class="ml-2">Projects</span>
           </a>
         </li>
-        <li >
+        <li>
           <a
             href="#"
             class="
@@ -603,8 +636,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -630,7 +665,7 @@
             <span class="ml-2">Wiki</span>
           </a>
         </li>
-        <li >
+        <li>
           <a
             href="#"
             class="
@@ -642,8 +677,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -669,7 +706,7 @@
             <span class="ml-2">Security</span>
           </a>
         </li>
-        <li >
+        <li>
           <a
             href="#"
             class="
@@ -681,8 +718,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -720,8 +759,10 @@
               ease-in-out
               duration
               150
-              px-4
+              px-3
               pb-3
+              rounded
+              hover:bg-gray-700
             "
           >
             <a href="" class="fill-current">
@@ -748,6 +789,479 @@
           </a>
         </li>
       </ul>
+      <!-- end repo nav -->
+
+      <div class="container mx-auto my-8 px-4 flex mt-6">
+        <div class="file-explorer-container w-3/4 mr-8 text-white">
+          <div class="branch-nav flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+              <button
+                class="
+                  border border-gray-800
+                  rounded-md
+                  px-3
+                  py-1
+                  hover:bg-gray-700
+                  flex
+                  items-center
+                  space-x-2
+                  bg-gray-800-github
+                  text-gray-400
+                "
+              >
+                <svg
+                  text="gray"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="octicon octicon-git-branch fill-current w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"
+                  ></path>
+                </svg>
+                <div class="font-semibold text-sm">main</div>
+                <svg
+                  class="ml-1 w-3 h-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+
+              <a
+                href="#"
+                class="hidden lg:flex items-center space-x-1 py-1 px-2 group"
+              >
+                <svg
+                  class="fill-current group-hover:text-blue-600 w-4"
+                  text="gray"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"
+                  ></path>
+                </svg>
+                <span class="group-hover:text-blue-600">
+                  <span class="font-semibold text-sm">25 </span>
+                  <span class="group-hover:text-blue-600 text-gray-600 text-sm"
+                    >branches</span
+                  >
+                </span>
+              </a>
+              <a
+                href="#"
+                class="
+                  hidden
+                  lg:flex
+                  items-center
+                  space-x-1
+                  py-1
+                  px-2
+                  fill-current
+                  group
+                "
+              >
+                <svg
+                  text="gray"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="octicon octicon-tag group-hover:text-blue-600 w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"
+                  ></path>
+                </svg>
+                <span class="group-hover:text-blue-600">
+                  <span class="font-semibold text-sm">11 </span>
+                  <span class="group-hover:text-blue-600 text-gray-600 text-sm"
+                    >tags</span
+                  >
+                </span>
+              </a>
+            </div>
+            <div class="flex items-center space-x-2">
+              <button
+                class="
+                  border border-gray-800
+                  hover:border-gray-400 hover:bg-gray-700
+                  rounded-lg
+                  px-4
+                  py-1
+                  flex
+                  items-center
+                  space-x-1
+                  bg-gray-800-github
+                  text-sm
+                  font-semibold
+                  text-gray-400
+                "
+              >
+                Go to file
+              </button>
+              <button
+                class="
+                  border border-gray-800
+                  hover:border-gray-400
+                  rounded-lg
+                  px-4
+                  py-1
+                  flex
+                  items-center
+                  space-x-1
+                  bg-gray-800-github
+                  text-sm
+                  font-semibold
+                  text-gray-400
+                  hover:bg-gray-700
+                "
+              >
+                Add file
+                <svg
+                  class="ml-1 w-3 h-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <button
+                class="
+                  border border-gray-800
+                  hover:border-gray-400
+                  rounded-lg
+                  px-4
+                  py-1
+                  flex
+                  items-center
+                  space-x-1
+                  bg-green-500-github
+                  hover:bg-green-600
+                  text-sm
+                  font-semibold
+                "
+              >
+                Code
+                <svg
+                  class="ml-1 w-3 h-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <!-- end branch nav -->
+
+          <div
+            class="
+              commits-container
+              bg-gray-600-github
+              border border-gray-800
+              rounded-md rounded-b-none
+              mt-5
+              px-4
+              py-4
+              flex
+              items-center
+              justify-between
+            "
+          >
+            <div class="flex items-center space-x-2 text-sm text-gray-400">
+              <a href="#" class="flex items-center hover:text-gray-500">
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  alt="@AlexGroat"
+                  size="20"
+                  height="20"
+                  width="20"
+                  data-view-component="true"
+                  class="w-5 h-5 rounded-full"
+                />
+              </a>
+              <a href="#" class="font-semibold hover:underline">AlexGroat</a>
+              <a href="#" class="hover:underline hover:text-blue-500"
+                >finished the top navs section</a
+              >
+            </div>
+            <div
+              class="flex items-center text-sm text-gray-500 space-x-2 group"
+            >
+              <a
+                href="#"
+                class="text-xs group-hover:text-blue-600 hover:underline"
+              >
+                c6a2353</a
+              >
+              <a
+                href="#"
+                class="text-sm group-hover:text-blue-600 hover:underline"
+              >
+                17 hours ago</a
+              >
+              <a href="#" class="flex items-center ml-3">
+                <svg
+                  text="gray"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="w-4 fill-current text-gray-400"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"
+                  ></path>
+                </svg>
+                <span class="ml-1"
+                  ><span class="font-semibold mr-1 text-gray-400">34</span
+                  >commits</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- end commits container -->
+
+          <div
+            class="
+              file-explorer
+              rounded-md rounded-t-none
+              border border-gray-800
+              text-gray-400
+              divide-y divide-gray-800
+              text-sm
+            "
+          >
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">assets</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">components</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">layouts</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">middleware</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">pages</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">plugins</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">static</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div class="flex justify-between px-4 py-2">
+              <div class="flex items-center w-4/12 font-semibold">
+                <svg
+                  aria-label="Directory"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  data-view-component="true"
+                  class="fill-current w-4 h-4 mr-2"
+                >
+                  <path
+                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">store</p>
+              </div>
+              <div
+                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+          </div>
+          <!-- end file explorer -->
+        </div>
+
+        <!-- end file exporer container -->
+        <div class="sidebar w-1/4 text-white">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nulla
+          similique molestiae quia optio minima commodi officiis a vel odio eum
+          ex laboriosam, sed ad, quidem alias perferendis? Dicta, odit.
+        </div>
+        <!-- end sidebar -->
+      </div>
     </div>
   </div>
 </template>
