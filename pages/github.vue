@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-900">
+  <div class="text-gray-900 bg-black">
     <nav
       class="
         bg-gray-900-github
@@ -135,7 +135,7 @@
       </div>
     </nav>
 
-    <div class="bg-black">
+    <div class="bg-black h-screen bg-cover">
       <!-- page background -->
       <div class="repo-stats flex items-center justify-between px-8 py-4">
         <div class="flex items-center">
@@ -991,6 +991,7 @@
               bg-gray-600-github
               border border-gray-800
               rounded-md rounded-b-none
+              border-b-none
               mt-5
               px-4
               py-4
@@ -1066,15 +1067,17 @@
               text-sm
             "
           >
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
@@ -1083,44 +1086,60 @@
                 <p class="hover:text-blue-500 hover:underline ml-2">assets</p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
                   ></path>
                 </svg>
-                <p class="hover:text-blue-500 hover:underline ml-2">components</p>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  components
+                </p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
@@ -1129,44 +1148,60 @@
                 <p class="hover:text-blue-500 hover:underline ml-2">layouts</p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
                   ></path>
                 </svg>
-                <p class="hover:text-blue-500 hover:underline ml-2">middleware</p>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  middleware
+                </p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
@@ -1175,21 +1210,28 @@
                 <p class="hover:text-blue-500 hover:underline ml-2">pages</p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
@@ -1198,21 +1240,28 @@
                 <p class="hover:text-blue-500 hover:underline ml-2">plugins</p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
                   aria-label="Directory"
                   aria-hidden="true"
                   viewBox="0 0 16 16"
                   version="1.1"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-4 h-4 mr-2 text-gray-500"
                 >
                   <path
                     d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
@@ -1221,30 +1270,335 @@
                 <p class="hover:text-blue-500 hover:underline ml-2">static</p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium nobis dicta quia facere vero adipisci sunt
+                voluptatibus rerum cumque atque, maiores commodi accusantium
+                laudantium iure perspiciatis aliquam fuga, iusto quod?
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  .editorconfig
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
               <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
             </div>
-            <div class="flex justify-between px-4 py-2">
-              <div class="flex items-center w-4/12 font-semibold">
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
                 <svg
-                  aria-label="Directory"
+                  aria-label="File"
                   aria-hidden="true"
+                  height="16"
                   viewBox="0 0 16 16"
                   version="1.1"
+                  width="16"
                   data-view-component="true"
-                  class="fill-current w-4 h-4 mr-2"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
                 >
                   <path
-                    d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H7.5a.25.25 0 01-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75z"
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
                   ></path>
                 </svg>
-                <p class="hover:text-blue-500 hover:underline ml-2">store</p>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  .gitignore
+                </p>
               </div>
               <div
-                class="w-6/12 text-gray-600 hover:text-blue-500 hover:underline"
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  README.md
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  nuxt.config.js
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  old_postcss.config.js
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  package-lock.json
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  package.json
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
+              >
+                commit message
+              </div>
+              <div class="w-2/12 text-gray-600 text-right">4 hours ago</div>
+            </div>
+            <div
+              class="flex justify-between px-4 py-2 hover:bg-gray-800-github"
+            >
+              <div class="flex items-center w-4/12">
+                <svg
+                  aria-label="File"
+                  aria-hidden="true"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  version="1.1"
+                  width="16"
+                  data-view-component="true"
+                  class="
+                    octicon octicon-file
+                    color-fg-muted
+                    fill-current
+                    text-gray-600
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"
+                  ></path>
+                </svg>
+                <p class="hover:text-blue-500 hover:underline ml-2">
+                  tailwind-config.js
+                </p>
+              </div>
+              <div
+                class="
+                  w-6/12
+                  truncate
+                  text-gray-600
+                  hover:text-blue-500 hover:underline
+                "
               >
                 commit message
               </div>
@@ -1252,8 +1606,70 @@
             </div>
           </div>
           <!-- end file explorer -->
+          <div
+            class="
+              readme-container
+              rounded-md
+              border border-gray-800
+              mt-4
+              px-6
+              py-3
+              text-gray-400
+              flex
+              items-center
+              justify-between
+            "
+          >
+            <div class="flex items-center">
+              <svg
+                aria-hidden="true"
+                height="16"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="16"
+                data-view-component="true"
+                class="
+                  octicon octicon-list-unordered
+                  fill-current
+                  mr-4
+                  text-gray-500
+                "
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"
+                ></path></svg
+              >README.md
+            </div>
+            <div>
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 16 16"
+                version="1.1"
+                data-view-component="true"
+                class="
+                  octicon octicon-pencil
+                  fill-current
+                  w-4
+                  h-4
+                  mr-2
+                  text-gray-600
+                "
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="border border-gray-800 rounded-md border-t-none">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            asperiores laboriosam id illum dolorem vero obcaecati dolores eius?
+            Cum, id!
+          </div>
+          <!-- end readme container -->
         </div>
-
         <!-- end file exporer container -->
         <div class="sidebar w-1/4 text-white">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nulla
@@ -1263,5 +1679,60 @@
         <!-- end sidebar -->
       </div>
     </div>
+    <footer
+      class="
+        container
+        text-white
+        mx-auto
+        mt-5
+        text-xs
+        border-t border-gray-800
+        py-10
+        flex
+        items-center
+        justify-between
+      "
+    >
+      <div class="space-x-2 flex items-center">
+        <div class="flex items-center mr-12">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 16 16"
+            version="1.1"
+            data-view-component="true"
+            class="
+              octicon octicon-mark-github
+              fill-current
+              w-6
+              h-6
+              text-gray-600
+            "
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+            ></path>
+          </svg>
+
+          <p class="text-xs ml-2 text-gray-600">&copy; 2022 Github, Inc.</p>
+        </div>
+
+        <div>
+          <ul class="flex space-x-12">
+            <li class="text-blue-500 hover:underline">Terms</li>
+            <li class="text-blue-500 hover:underline">Privacy</li>
+            <li class="text-blue-500 hover:underline">Security</li>
+            <li class="text-blue-500 hover:underline">Status</li>
+            <li class="text-blue-500 hover:underline">Docs</li>
+            <li class="text-blue-500 hover:underline">Contact Github</li>
+            <li class="text-blue-500 hover:underline">Pricing</li>
+            <li class="text-blue-500 hover:underline">API</li>
+            <li class="text-blue-500 hover:underline">Training</li>
+            <li class="text-blue-500 hover:underline">Blog</li>
+            <li class="text-blue-500 hover:underline">About</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
