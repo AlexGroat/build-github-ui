@@ -389,7 +389,7 @@
           flex
           items-center
           px-5
-          mt-5
+          mt-4
           text-gray-400 text-sm
         "
       >
@@ -1664,10 +1664,16 @@
               </svg>
             </div>
           </div>
-          <div class="border border-gray-800 rounded-md border-t-none">
+          <div class="border border-gray-800 rounded-md rounded-t-none">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             asperiores laboriosam id illum dolorem vero obcaecati dolores eius?
-            Cum, id!
+            Cum, id! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Unde suscipit consequatur quo fugiat non similique rem sit ipsum
+            velit veritatis, quam voluptas, cum possimus sapiente quod nostrum
+            illum ipsa! Quibusdam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Expedita cumque quia obcaecati temporibus, quam
+            tempore aliquid voluptatibus consectetur qui accusantium laudantium
+            velit sequi, soluta aut dicta nam ut necessitatibus blanditiis.
           </div>
           <!-- end readme container -->
         </div>
@@ -1988,7 +1994,15 @@
                   class="w-8 rounded-full border-2 border-black -ml-2"
                   alt="avatar"
                 />
-                <span class="text-sm text-blue-500 font-semibold hover:underline ml-2">+ 2,097</span>
+                <span
+                  class="
+                    text-sm text-blue-500
+                    font-semibold
+                    hover:underline
+                    ml-2
+                  "
+                  >+ 2,097</span
+                >
               </a>
             </div>
           </div>
@@ -2003,11 +2017,69 @@
                 123
               </div>
             </h4>
+            <div class="mt-2">
+              <a href="#" class="flex flex-wrap items-center">
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full mr-2 mt-2"
+                  alt="avatar"
+                />
+                
+                <span
+                  class="
+                    text-sm text-blue-500
+                    font-semibold
+                    hover:underline
+                    ml-2
+                  "
+                  >+ 2,097</span
+                >
+              </a>
+            </div>
           </div>
           <div class="languages border-t border-gray-800 mt-6 pt-6">
             <h4 class="text-base font-semibold flex items-center">
               <span class="hover:text-blue-500 hover:underline">Languages</span>
             </h4>
+            <div class="mt-4 flex">
+              <div class="w-11/12 h-2 rounded-md rounded-r-none bg-purple-700"></div>
+              <div class="w-1/12 h-2 rounded-md rounded-l-none bg-yellow-700"></div>
+            </div>
           </div>
         </div>
         <!-- end sidebar -->
@@ -2015,10 +2087,12 @@
     </div>
     <footer
       class="
+        bg-page-gray
+        relative
         container
         text-white
         mx-auto
-        mt-8
+        mt-24
         text-xs
         border-t border-gray-800
         py-12
