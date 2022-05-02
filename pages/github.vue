@@ -134,11 +134,11 @@
       </div>
     </nav>
 
-    <div class=" bg-cover">
+    <div class="bg-cover">
       <!-- page background -->
       <div class="repo-stats flex items-center justify-between px-8 py-4">
         <div class="flex items-center">
-          <a href="">
+          <a href="#">
             <svg
               class="w-6 h-6 text-gray-600"
               fill="none"
@@ -202,7 +202,7 @@
                 text-gray-400
               "
             >
-              <a href="" class="fill-current">
+              <a href="#" class="fill-current">
                 <svg
                   aria-hidden="true"
                   viewBox="0 0 16 16"
@@ -264,7 +264,7 @@
                 text-gray-400
               "
             >
-              <a href="" class="fill-current"
+              <a href="#" class="fill-current"
                 ><svg
                   aria-hidden="true"
                   height="16"
@@ -327,7 +327,7 @@
                 text-gray-400
               "
             >
-              <a href="" class="fill-current"
+              <a href="#" class="fill-current"
                 ><svg
                   aria-hidden="true"
                   height="16"
@@ -344,7 +344,7 @@
                 </svg>
               </a>
               Star
-              <a href="" class=""
+              <a href="#" class=""
                 ><svg
                   class="ml-1w-3 h-3"
                   fill="none"
@@ -395,7 +395,7 @@
       >
         <li class="">
           <a
-            href=""
+            href="#"
             class="
               flex
               items-center
@@ -406,7 +406,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -446,7 +446,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -505,7 +505,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -561,7 +561,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -602,7 +602,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -643,7 +643,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -684,7 +684,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -725,7 +725,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -766,7 +766,7 @@
               hover:bg-gray-700
             "
           >
-            <a href="" class="fill-current">
+            <a href="#" class="fill-current">
               <svg
                 aria-hidden="true"
                 height="16"
@@ -1943,7 +1943,7 @@
             </a>
 
             <div class="mt-4">
-              <a href="" class="text-blue-600 hover:underline text-sm"
+              <a href="#" class="text-blue-600 hover:underline text-sm"
                 >+ 47 releases</a
               >
             </div>
@@ -2059,7 +2059,7 @@
                   class="w-8 rounded-full mr-2 mt-2"
                   alt="avatar"
                 />
-                
+
                 <span
                   class="
                     text-sm text-blue-500
@@ -2077,9 +2077,30 @@
               <span class="hover:text-blue-500 hover:underline">Languages</span>
             </h4>
             <div class="mt-4 flex">
-              <div class="w-11/12 h-2 rounded-md rounded-r-none bg-purple-700"></div>
-              <div class="w-1/12 h-2 rounded-md rounded-l-none bg-yellow-700"></div>
+              <div
+                class="w-11/12 h-2 rounded-md rounded-r-none bg-purple-700"
+              ></div>
+              <div
+                class="w-1/12 h-2 rounded-md rounded-l-none bg-yellow-500"
+              ></div>
             </div>
+            <ul class="mt-2 flex space-x-8 items-center text-cs">
+              <li class="flex items-center">
+                <div class="w-2 h-2 rounded-full bg-purple-700"></div>
+                <span class="flex">
+                  <span class="ml-2 font-semibold text-gray-400"> PHP </span>
+                  <span class="ml-2"> 86.8% </span>
+                </span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                <span class="flex">
+                  <span class="ml-2 font-semibold text-gray-400"> Javascript </span>
+                  <span class="ml-2"> 86.8% </span>
+                </span>
+              </li>
+              <li class="flex items-center"></li>
+            </ul>
           </div>
         </div>
         <!-- end sidebar -->
