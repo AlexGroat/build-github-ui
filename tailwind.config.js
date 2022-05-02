@@ -34,7 +34,8 @@ module.exports = {
         'gray-800-github': '#21262d',
         'gray-600-github': '#161b22',
         'page-gray': '#0d1117',
-        'tag-blue': '#58a6ff'
+        'tag-blue': '#58a6ff',
+        'green-450': '#3fb950'
         
       },
       spacing: {

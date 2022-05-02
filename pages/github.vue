@@ -476,7 +476,8 @@
                 hover:border-gray-400
                 px-1
                 ml-1
-                text-gray-600
+                bg-gray-700
+                text-gray-400
                 hover:text-blue-500
                 rounded
                 hover:bg-gray-700
@@ -533,7 +534,8 @@
                 hover:border-gray-400
                 px-1
                 ml-1
-                text-gray-600
+                bg-gray-700
+                text-gray-400
                 hover:text-blue-500
               "
             >
@@ -1806,7 +1808,207 @@
             >
           </div>
 
+          <div class="text-sm">
+            <a href="#" class="flex items-center space-x-2 mt-4 group">
+              <svg
+                class="
+                  w-4
+                  fill-current
+                  text-gray-600
+                  group-hover:text-blue-600
+                  mr-2
+                "
+                viewBox="0 0 16 16"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"
+                ></path>
+              </svg>
+              <span class="text-gray-600 group-hover:text-blue-600"
+                >Readme</span
+              >
+            </a>
+            <a href="#" class="flex items-center space-x-2 mt-1 group text-sm">
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 16 16"
+                version="1.1"
+                data-view-component="true"
+                class="octicon octicon-star w-4 h-4 mr-2 fill-current"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"
+                ></path>
+              </svg>
+              <span class="text-gray-600 group-hover:text-blue-600"
+                >4 stars</span
+              >
+            </a>
+            <a href="#" class="flex items-center space-x-2 mt-1 group">
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 16 16"
+                version="1.1"
+                data-view-component="true"
+                class="octicon octicon-eye w-4 h-4 mr-2 fill-current"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"
+                ></path>
+              </svg>
+              <span class="text-gray-600 group-hover:text-blue-600"
+                >3 watching</span
+              >
+            </a>
+            <a href="#" class="flex items-center space-x-2 mt-1 group">
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 16 16"
+                version="1.1"
+                data-view-component="true"
+                class="octicon octicon-repo-forked mr-2 w-4 h-4 fill-current"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"
+                ></path>
+              </svg>
+              <span class="text-gray-600 group-hover:text-blue-600"
+                >6 forks</span
+              >
+            </a>
+          </div>
           <!-- end about -->
+          <div class="releases border-t border-gray-800 mt-6 pt-6">
+            <h4 class="text-base font-semibold flex items-center">
+              <span class="hover:text-blue-500 hover:underline">Releases</span>
+              <div
+                class="text-xs rounded-lg px-2 ml-1 bg-gray-700 text-gray-400"
+              >
+                24
+              </div>
+            </h4>
+
+            <a href="#" class="flex items-start mt-4 group">
+              <svg
+                class="
+                  fill-current
+                  mt-1
+                  w-4
+                  text-green-450
+                  group-hover:text-blue-500
+                "
+                mt="1"
+                classes="flex-shrink-0"
+                color="green"
+                viewBox="0 0 16 16"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"
+                ></path>
+              </svg>
+              <span class="ml-2">
+                <span class="font-semibold group-hover:text-blue-600"
+                  >v1.5.1</span
+                >
+                <span
+                  class="
+                    ml-1
+                    text-xs
+                    border border-green-450
+                    text-green-450
+                    rounded-full
+                    font-semibold
+                    inline-block
+                    px-2
+                  "
+                  >Latest</span
+                >
+                <span class="block text-xs group-hover:text-blue-600"
+                  >6 days ago</span
+                >
+              </span>
+            </a>
+
+            <div class="mt-4">
+              <a href="" class="text-blue-600 hover:underline text-sm"
+                >+ 47 releases</a
+              >
+            </div>
+          </div>
+          <div class="used-by border-t border-gray-800 mt-6 pt-6">
+            <h4 class="text-base font-semibold flex items-center">
+              <span class="hover:text-blue-500 hover:underline">Used by</span>
+              <div
+                class="text-xs rounded-lg px-2 ml-1 bg-gray-700 text-gray-400"
+              >
+                2.1K
+              </div>
+            </h4>
+            <div class="mt-4">
+              <a href="#" class="flex items-center">
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black -ml-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black -ml-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black -ml-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black -ml-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black -ml-2"
+                  alt="avatar"
+                />
+                <img
+                  src="https://avatars.githubusercontent.com/u/88314794?s=40&amp;v=4"
+                  class="w-8 rounded-full border-2 border-black -ml-2"
+                  alt="avatar"
+                />
+                <span class="text-sm text-blue-500 font-semibold hover:underline ml-2">+ 2,097</span>
+              </a>
+            </div>
+          </div>
+          <div class="contributors border-t border-gray-800 mt-6 pt-6">
+            <h4 class="text-base font-semibold flex items-center">
+              <span class="hover:text-blue-500 hover:underline"
+                >Contributors</span
+              >
+              <div
+                class="text-xs rounded-lg px-2 ml-1 bg-gray-700 text-gray-400"
+              >
+                123
+              </div>
+            </h4>
+          </div>
+          <div class="languages border-t border-gray-800 mt-6 pt-6">
+            <h4 class="text-base font-semibold flex items-center">
+              <span class="hover:text-blue-500 hover:underline">Languages</span>
+            </h4>
+          </div>
         </div>
         <!-- end sidebar -->
       </div>
@@ -1816,10 +2018,10 @@
         container
         text-white
         mx-auto
-        mt-5
+        mt-8
         text-xs
         border-t border-gray-800
-        py-10
+        py-12
         flex
         items-center
         justify-between
