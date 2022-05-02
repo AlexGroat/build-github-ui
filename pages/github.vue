@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-900 bg-black">
+  <div class="text-gray-900 bg-page-gray">
     <nav
       class="
         bg-gray-900-github
@@ -36,10 +36,9 @@
           <div class="absolute top-0 right-0 flex items-center h-full">
             <div
               class="
-                border border-gray-600
+                border border-gray-800
                 rounded
-                text0xs
-                test-gray-400
+                text-xs text-gray-500
                 px-2
                 mr-2
               "
@@ -135,7 +134,7 @@
       </div>
     </nav>
 
-    <div class="bg-black h-screen bg-cover">
+    <div class="h-screen bg-cover">
       <!-- page background -->
       <div class="repo-stats flex items-center justify-between px-8 py-4">
         <div class="flex items-center">
@@ -389,8 +388,8 @@
           border-b border-gray-900
           flex
           items-center
-          px-4
-          mt-3
+          px-5
+          mt-5
           text-gray-400 text-sm
         "
       >
@@ -475,7 +474,7 @@
                 rounded-lg
                 border border-gray-800
                 hover:border-gray-400
-                px-2
+                px-1
                 ml-1
                 text-gray-600
                 hover:text-blue-500
@@ -532,7 +531,7 @@
                 rounded-lg
                 border border-gray-800
                 hover:border-gray-400
-                px-2
+                px-1
                 ml-1
                 text-gray-600
                 hover:text-blue-500
@@ -1671,10 +1670,143 @@
           <!-- end readme container -->
         </div>
         <!-- end file exporer container -->
-        <div class="sidebar w-1/4 text-white">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nulla
-          similique molestiae quia optio minima commodi officiis a vel odio eum
-          ex laboriosam, sed ad, quidem alias perferendis? Dicta, odit.
+        <div class="sidebar w-1/4 text-gray-500">
+          <div class="about">
+            <h4 class="text-base font-semibold">About</h4>
+            <p class="text-base mt-4 text-gray-400">
+              A utility first CSS framework for rapid UI development.
+            </p>
+
+            <div class="flex items-center space-x-2 mt-4">
+              <svg
+                class="w-4 fill-current"
+                mr="2"
+                classes="flex-shrink-0"
+                viewBox="0 0 16 16"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"
+                ></path>
+              </svg>
+              <a href="#" class="text-blue-600 hover:underline font-semibold"
+                >tailwindcss.com/</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="tags text-xs font-semibold flex items-center flex-wrap mt-2"
+          >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >tailwindcss</a
+            >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >css</a
+            >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >css-framework</a
+            >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >postcss</a
+            >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >functional-css</a
+            >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >utility-classes</a
+            >
+            <a
+              href="#"
+              class="
+                bg-blue-900
+                text-blue-500
+                rounded-full
+                px-2
+                py-1
+                mt-2
+                text-tag-blue
+                hover:bg-blue-700 hover:text-white
+                mr-1
+              "
+              >responsive</a
+            >
+          </div>
+
+          <!-- end about -->
         </div>
         <!-- end sidebar -->
       </div>
